@@ -1,0 +1,52 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite / DB files
+*.db
+*.sqlite
+*.sqlite3
+
+# -----------------------
+# Virtual Environments
+# -----------------------
+venv/
+.env/
+.env*/
+**/venv/
+**/healthenv/
+
+# -----------------------
+# Environment Variables (CRITICAL)
+# -----------------------
+.env
+.env.*
+**/.env
+**/.env.*
+*.env
+
+# -----------------------
+# Streamlit
+# -----------------------
+.streamlit/
+**/.streamlit/
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# OS Files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
