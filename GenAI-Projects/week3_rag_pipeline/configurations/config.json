@@ -1,0 +1,27 @@
+{
+  "dataset": {
+    "name": "mratanusarkar/Indian-Laws",
+    "split": "train"
+  },
+  "embedding": {
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "chroma": {
+    "collection_name": "indian_laws_collection",
+    "persist_directory": "./chroma_store",
+    "batch_size": 5000
+  },
+  "llm": {
+    "model_name": "gpt-4o-mini-2024-07-18",
+    "temperature": 0,
+    "api_key": ""
+  },
+  "retriever": {
+    "top_k": 3
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(levelname)s - %(message)s"
+  }
+}
+

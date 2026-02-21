@@ -1,0 +1,23 @@
+# Transformers for model loading & tokenization
+transformers==4.34.0
+
+# Datasets library for loading JSONL and other datasets
+datasets==2.16.0
+
+# PEFT for LoRA / parameter-efficient fine-tuning
+peft==0.6.2
+
+# TRL for SFTTrainer / RLHF training utilities
+trl==0.9.0
+
+# PyTorch + CUDA 11.8 support (T4 GPU)
+torch==2.2.0+cu118
+torchvision==0.17.0+cu118
+torchaudio==2.2.0+cu118
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Accelerate for multi-GPU / distributed training
+accelerate==2.3.0
+
+# Optional: For progress bars and logging
+tqdm==4.66.1

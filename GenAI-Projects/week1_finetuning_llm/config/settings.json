@@ -1,0 +1,5 @@
+{
+  "FINE_TUNE_SUFFIX": "tmlc-w1-gym-workout-dataset",
+  "DEFAULT_TIMEOUT": 1800,
+  "POLL_INTERVAL": 30
+}

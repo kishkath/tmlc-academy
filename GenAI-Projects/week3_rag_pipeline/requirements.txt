@@ -1,0 +1,10 @@
+datasets
+sentence-transformers
+chromadb
+langchain==0.3.23
+openai
+rank_bm25
+flask        # used in Step 2
+streamlit    # used in Step 3
+langchain-community
+langchain-core

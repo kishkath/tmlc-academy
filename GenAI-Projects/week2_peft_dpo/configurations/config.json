@@ -1,0 +1,53 @@
+{
+  "device": "cuda",
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_file": "dataset/qa_fitness_nutrition_train.jsonl",
+  "eval_file": "dataset/qa_fitness_nutrition_val.jsonl",
+  "max_length": 512,
+  "lora": {
+    "r": 16,
+    "lora_alpha": 64,
+    "target_modules": ["q_proj", "v_proj"],
+    "lora_dropout": 0.15,
+    "bias": "none",
+    "task_type": "CAUSAL_LM"
+  },
+  "training": {
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 2e-5,
+    "warmup_steps": 50,
+    "num_train_epochs": 4,
+    "logging_steps": 20,
+    "evaluation_strategy": "steps",
+    "eval_steps": 50,
+    "save_strategy": "steps",
+    "save_steps": 50,
+    "save_total_limit": 2,
+    "output_dir": "/kaggle/working/qwen2.5-0.5b-finetuned-sep13",
+    "logging_dir": "/kaggle/working/logs",
+    "load_best_model_at_end": true,
+    "metric_for_best_model": "loss",
+    "report_to": "none"
+  },
+  "inference": {
+    "mode": "lora",
+    "base_model_name": "Qwen/Qwen2.5-0.5B",
+    "adapter_path": "/kaggle/working/qwen2.5-0.5b-finetuned-sep13",
+    "merged_model_path": "/kaggle/working/qwen2.5-0.5b-merged-sep13",
+    "generation": {
+      "max_new_tokens": 512,
+      "temperature": 0.7,
+      "top_p": 0.9
+    },
+    "questions": [
+      "What are the benefits of regular exercise?",
+      "How often should I do strength training?",
+      "What is a healthy diet plan for weight loss?",
+      "Give me 3 exercise names to strength chest?"
+    ]
+  }
+}
+
+
+

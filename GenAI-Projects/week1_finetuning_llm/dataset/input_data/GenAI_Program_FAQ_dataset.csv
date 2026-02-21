@@ -1,0 +1,29 @@
+﻿prompt,completion
+How the sessions will be organized. Will the recording be available if I miss any class?,This program contains both pre-recorded and live sessions. Live sessions will happen on weekends. Recordings will be provided after the live session.
+Is there any pre-requisite required before or during the program,Intermediate level python programming is required. GenAI pre-requisites are covered in the program.
+What will be the duration of the program?,This is a 6 weeks long program.
+What materials will be provided during the course?,"Videos, documents, coding assignments will be provided during the program."
+What will be the timings of the sessions?,Live sessions will happen 6 to 7:30 PM IST on weekends.
+Is the fee refundable?,Program fee is non refundable.
+How many projects are there in the program?,There are 6+ projects in the program.
+What tools are taught during the program?,"Tools and models like OpenAI, HuggingFace, Ollama, Langchain, chainlit, docker, vLLM, FastAPI are taught"
+What are the main topics covered during the program?,"Topics like Generative AI, LLMs, Finetuning, RAG, Agents, LLMOps etc are covered during the program. To learn more please visit https://www.tmlcacademy.in/genai"
+When does the latest cohort/program starts?,The latest cohort starts on 29th November 2024
+Is Live Doubt Support available during the program,"Yes, learners can reach out to the mentors for a one-to-one doubt support"
+When does the Live Sessions happen?,Live Sessions happen during the weekends.
+How much time should should I as a learner put everyday?,2-3 hours is being suggested to learn and explore few things on your own from the materials provided to you.
+Do any completion certificate is provided on completion of the course?,"Yes, course completion certificate is provided and along with that an Experience letter is also provided on completing 6+ projects"
+What can join this program?,"This program is best suited for tech enthusiasts, data scientists, and developers who want to explore and specialize in Generative AI and its applications."
+Can I join the program if I miss the start date?,"Yes, you can join within the first week of the program as recordings of missed sessions will be available."
+Are there any assignments during the program?,"Yes, assignments are provided to help learners practice and apply the concepts learned."
+What is the mode of delivery for this program?,"The program is conducted online, combining pre-recorded videos and live sessions for an interactive experience."
+What kind of projects will I work on?,"Projects include tasks such as building a chatbot, fine-tuning a language model, implementing RAG pipelines, and deploying Generative AI applications."
+What makes this program different from others?,"This program emphasizes practical, hands-on learning with real-world projects and in-demand tools like Hugging Face and LangChain."
+What are the key outcomes from completing this program?,"Learners will gain expertise in Generative AI, fine-tuning models, deploying AI systems, and working with state-of-the-art tools like OpenAI and HuggingFace."
+How is the course structured?,"The course is divided into modules, each focusing on a different aspect of Generative AI, including theory, practical projects, and hands-on sessions."
+What happens if I miss a live session?,"If you miss a live session, the recording will be available, and you can reach out to mentors for clarification of any doubts."
+What level of technical expertise is expected to succeed in this program?,"Intermediate-level programming skills in Python, with a basic understanding of machine learning and AI concepts, are recommended."
+Is there a discount for early enrollment?,"Yes, early bird discounts are available for those who enroll before the specified deadline."
+How is the course structured in terms of difficulty?,"The program is designed to gradually increase in difficulty, starting with foundational concepts and advancing to complex applications and projects."
+Do I need to complete the assignments to pass the course?,"Yes, assignments are essential for mastering the material and progressing through the program."
+What tools do I need to install for the course?,"You will need to install Python and some key libraries like TensorFlow, PyTorch, and Hugging Face. Instructions will be provided."
